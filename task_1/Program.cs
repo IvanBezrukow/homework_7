@@ -37,6 +37,7 @@ try
     double[,] mainArray = new double[rows, columns]; 
     Console.Clear();
     FillArray(mainArray);
+    Console.WriteLine("The generated array:");
     PrintArray(mainArray);
 }
 catch 
